@@ -28,3 +28,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         </KindeProvider>
     </React.StrictMode>
 );
+
+/**
+ * View tutorial video here:
+ * https://www.youtube.com/watch?v=J3aFEqouK44
+ */
