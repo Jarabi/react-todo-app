@@ -15,10 +15,10 @@ type AddTodoFormProps = {
 };
 
 type ButtonProps = {
-    onClick: () => Promise<void>
-    buttonType?: "primary" | "secondary";
+    onClick?: () => Promise<void>;
+    buttonType?: 'primary' | 'secondary';
     children: React.ReactNode;
-}
+};
 
 type HeaderProps = {
     totalTodos: number,
